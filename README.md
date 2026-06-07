@@ -25,13 +25,15 @@ As of today, the models are behind the crowd on Brier score. Ember is not a sour
 
 This is the differentiator. Most signal sources ask you to trust a number with no track record. Ember hands you the number *and* its public score, including when it's wrong.
 
-## Quickstart
+## Access
 
-Set two environment variables:
+This starter is a reference for the Ember API. Running the examples against live data needs an API key — Ember is in early access, and first integrations get a free Team tier (see "Build with us" below). Reach out via [@emberfyi](https://x.com/emberfyi) or the partnership link at https://emberfyi.com and we'll set you up with a key and the current base URL.
+
+Once you have a key:
 
 ```bash
-export EMBER_API_KEY="your_key"          # from https://emberfyi.com/api
-export EMBER_API_BASE="https://api.emberfyi.com/v1"   # confirm the current base in the API docs
+export EMBER_API_KEY="your_key"
+export EMBER_API_BASE="https://api.emberfyi.com/v1"   # we'll confirm the current base when we set you up
 ```
 
 Then run an example:
